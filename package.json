@@ -1,0 +1,23 @@
+{
+  "name": "two-person-growth-space",
+  "version": "1.0.0",
+  "description": "Private personal-growth website for two users",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "private",
+    "growth",
+    "journal",
+    "socket.io"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.0.5"
+  }
+}
